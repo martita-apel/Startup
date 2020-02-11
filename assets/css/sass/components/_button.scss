@@ -1,0 +1,15 @@
+.navbar__button {
+  background: $ball-blue;
+  color: white;
+  font-size: 1rem;
+  padding: 7px 16px;
+  border: 0;
+
+  &:hover {
+    background: $middle-blue;
+  }
+
+  &:focus {
+    background: $silver-chalice;
+  }
+}

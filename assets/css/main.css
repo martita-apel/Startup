@@ -1,0 +1,117 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+  padding: 20px 60px;
+}
+
+.navbar,
+.navbar__elements,
+.navbar__right,
+.navbar__left,
+.navbar__item {
+  display: flex;
+}
+
+.navbar__elements {
+  width: 94%;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.navbar__elements .navbar__right {
+  align-items: baseline;
+}
+
+.navbar__item {
+  padding: 20px 0 20px 25px;
+  text-decoration: none;
+  color: #333745;
+}
+
+.navbar__toggler {
+  margin-left: auto;
+  text-align: right;
+}
+.navbar__toggler input {
+  display: none;
+}
+.navbar__toggler label {
+  font-size: 38px;
+  border: 1px solid gray;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.navbar__collapse {
+  max-height: 0;
+  margin-top: 14px;
+  overflow: hidden;
+  box-shadow: 0px 0px 6px #e8e8e8;
+}
+.navbar__collapse a {
+  text-decoration: none;
+  color: #333745;
+  background: white;
+  display: block;
+  text-align: right;
+  padding: 12px 12px 12px 40px;
+  font-size: 16px;
+  font-weight: 400;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+input:checked ~ .navbar__collapse {
+  max-height: 100%;
+}
+
+@media only screen and (min-width: 800px) {
+  .navbar__toggler {
+    display: none;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .navbar__elements {
+    display: none;
+  }
+}
+.hero__cover {
+  background-image: url("../img/bg-hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero {
+  background-color: aqua;
+  padding: 20px 60px;
+  height: 200px;
+  width: 100%;
+}
+.hero h1 {
+  font-size: 50px;
+  width: 60%;
+}
+
+.navbar__button {
+  background: #2ab7ca;
+  color: white;
+  font-size: 1rem;
+  padding: 7px 16px;
+  border: 0;
+}
+.navbar__button:hover {
+  background: #77d1dd;
+}
+.navbar__button:focus {
+  background: #aeacaf;
+}
