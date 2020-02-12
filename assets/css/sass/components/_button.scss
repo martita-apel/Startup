@@ -33,3 +33,12 @@
     }
   }
 }
+
+@media screen and (max-width: 567px) {
+  .precios__card1,
+  .precios__card2 {
+    button {
+      padding: 10px 81px;
+    }
+  }
+}

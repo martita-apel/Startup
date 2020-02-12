@@ -44,21 +44,13 @@
   margin-left: auto;
 }
 
-@media screen and (max-width: 779px) {
-  .precios__card1,
-  .precios__card2 {
-    margin: 20px auto;
-  }
-}
-
 @media screen and (max-width: 567px) {
   .precios__card1,
   .precios__card2 {
     width: 260px;
-
-    button {
-      padding: 10px 80px;
-    }
+  }
+  .precios__card2 {
+    padding-bottom: 75px;
   }
 }
 
@@ -66,9 +58,10 @@
   .precios__cover {
     background-size: cover;
     background-position: 20%;
-
-    .precios__card2 {
-      padding-bottom: 75px;
-    }
+  }
+  .precios__card1,
+  .precios__card2 {
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
 }
