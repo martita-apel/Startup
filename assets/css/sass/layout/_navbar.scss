@@ -1,5 +1,5 @@
 nav {
-  padding: 20px 80px;
+  padding: 20px 80px 0 80px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
@@ -34,6 +34,10 @@ label {
   padding: 10px 12px;
   text-decoration: none;
   color: $onyx;
+
+  &:hover {
+    color: $middle-blue;
+  }
 }
 
 // Barra de Hamburguesa
@@ -47,7 +51,7 @@ input:checked ~ .navbar__elements {
 }
 
 // Media Queries
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 876px) {
   label {
     display: none;
   }
@@ -61,5 +65,11 @@ input:checked ~ .navbar__elements {
   .navbar__right {
     align-items: baseline;
     display: flex;
+  }
+}
+
+@media only screen and (max-width: 675px) {
+  nav {
+    padding: 20px 40px 0 40px;
   }
 }

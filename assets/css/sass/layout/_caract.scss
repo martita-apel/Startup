@@ -4,18 +4,26 @@
 }
 
 .caract__elements {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 30px;
 
   img {
-    padding: 0 20px;
+    margin-left: auto;
+    padding: 0 30px;
   }
 
   .caract__descrip {
-    padding: 0 20px;
+    padding: 0 30px;
+
     & h4 {
       font-weight: 400;
     }
+  }
+}
+
+@media screen and (max-width: 779px) {
+  .caract__elements img {
+    margin: auto;
+    width: 80%;
   }
 }

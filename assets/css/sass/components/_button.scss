@@ -13,3 +13,23 @@
     background: $silver-chalice;
   }
 }
+
+.precios__card1,
+.precios__card2 {
+  button {
+    background: $ball-blue;
+    color: white;
+    padding: 10px 100px;
+    margin-top: 10px;
+    border: 0;
+    font-size: $large;
+
+    &:hover {
+      background: $middle-blue;
+    }
+
+    &:focus {
+      background: $silver-chalice;
+    }
+  }
+}
