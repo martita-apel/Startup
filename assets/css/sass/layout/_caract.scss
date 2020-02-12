@@ -21,6 +21,23 @@
   }
 }
 
+.caract__elements img {
+  animation-name: gráfico;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes gráfico {
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
 @media screen and (max-width: 779px) {
   .caract__elements img {
     margin: auto;
