@@ -21,11 +21,15 @@
     <link rel="stylesheet" href="assets/css/main.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
+
   <body>
     <nav class="navbar">
       <a class="navbar__logo" href="#">
         <img src="assets/img/Logo.svg" alt="Logo" />
       </a>
+
+      <input type="checkbox" id="menu" />
+      <label for="menu"><i class="fas fa-bars"></i></label>
 
       <div class="navbar__elements">
         <div class="navbar__left">
@@ -42,23 +46,47 @@
           >
         </div>
       </div>
-
-      <button class="navbar__toggler">
-        <input type="checkbox" id="menu" />
-        <label for="menu"><i class="fas fa-bars"></i></label>
-        <div class="navbar__collapse">
-          <a href="#">Acerca de</a>
-          <a href="#">Características</a>
-          <a href="#">Precios</a>
-          <a href="#">Iniciar Sesión</a>
-          <a href="#">Regístrate</a>
-        </div>
-      </button>
     </nav>
 
     <section class="hero">
-      <div class="hero__cover"></div>
-      <h1>Haz trekking sin parar</h1>
+      <div class="hero__cover col-sm-12 col-md-12 col-lg-12 col-xl-12 row">
+        <div class="hero__text col-sm-10 col-md-8 col-lg-6 col-xl-6">
+          <h1 class="">Haz trekking <br />sin parar</h1>
+          <h3 class="">
+            Con trekking-in te despreocuparás de la estimación de tu viaje, ya
+            que con unos simples pasos podrás definir la mejor ruta a tomar con
+            tus compañeros de expedición.
+          </h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="caract">
+      <h1>Características</h1>
+      <div class="caract__elements row">
+        <img class= col-sm-12 col-md-6 col-lg-6 col-xl-6"
+        src="assets/img/bar-graph.svg" alt="Gráfico" />
+        <div class="caract__descrip col-sm-12 col-md-10 col-lg-5 col-xl-5">
+          <h2>Estadísticas de tu progreso</h2>
+          <h4>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+            culpa qui officia deserunt mollit anim id est laborum.
+          </h4>
+        </div>
+      </div>
+    </section>
+
+    <section class="precios">
+      <h1>Precios</h1>
+      <div class="precios__cards">
+        <div class="precios__card1"></div>
+        <div class="precios__card2"></div>
+      </div>
     </section>
 
     <script

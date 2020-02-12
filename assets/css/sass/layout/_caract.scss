@@ -1,0 +1,21 @@
+.caract h1 {
+  text-align: center;
+  font-size: $xxx-large;
+}
+
+.caract__elements {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  img {
+    padding: 0 20px;
+  }
+
+  .caract__descrip {
+    padding: 0 20px;
+    & h4 {
+      font-weight: 400;
+    }
+  }
+}
